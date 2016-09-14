@@ -1,0 +1,21 @@
+{
+  "name": "expense-tracker",
+  "version": "1.0.0",
+  "description": "A Firebase powered expense tracker",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "keywords": [],
+  "author": "Pramod",
+  "license": "MIT",
+  "devDependencies": {
+    "angular": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "angularfire": "^2.0.2",
+    "bootstrap": "^3.3.7",
+    "firebase": "^3.3.0",
+    "jquery": "^3.1.0"
+  }
+}

@@ -1,0 +1,13 @@
+<div>
+  <h2>Welcome to User Preference</h2>
+  <p>{{helloUser}}</p>
+  <p>Display Name:</p>
+  <input type="text" ng-model="userPreferences.displayName" class="form-control">
+  <br>
+  <select ng-model="userPreferences.themes" class="form-control">
+    <option ng-repeat="mytheme in themesArray">{{mytheme}}</option>
+  </select>
+  <br>
+  <button class="btn btn-primary" ng-click="save(userPreferences)">Save</button>
+  <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+</div>
